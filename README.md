@@ -11,6 +11,8 @@ This project demonstrates a production-style, automated data pipeline that inges
 - **Docker** – containerized pipeline execution  
 - **TrueNAS Cron** – automated scheduling  
 - **Metabase** – dashboard and data visualization  
+![Metabase Dashboard](screenshots/dashboard.png)
+
 
 ---
 
@@ -36,25 +38,14 @@ This project demonstrates a production-style, automated data pipeline that inges
 - Aggregates raw transactions into hourly metrics  
 - Writes results into: `analytics.hourly_activity_summary`  
 
-Example output:
-
-| activity_hour | total_transactions | total_amount |
-|---------------|------------------|-------------|
-| 10:00         | 15               | 820.50      |
-| 11:00         | 22               | 1104.10     |
-
-![Hourly Analytics Table](F:\data-pipeline-system\screenshots\analytics.png)
+![Hourly Analytics Table](screenshots/analytics.png)
 
 ### 3. Validation
 - Checks raw and analytics tables  
 - Detects pipeline failures  
 - Logs validation status into: `monitoring.pipeline_runs`  
 
-Example pipeline runs:
-
-![Pipeline Runs Table](F:\data-pipeline-system\screenshots\pipeline_runs.png)
-
----
+![Pipeline Runs](screenshots/pipeline_runs.png)
 
 ## Database Structure
 
