@@ -2,11 +2,11 @@ import psycopg2
 
 # Database connection settings
 DB_CONFIG = {
-    "host": "192.168.178.51",
+    "host": "host_ip",
     "port": 5432,
-    "dbname": "MyDB",
-    "user": "root",
-    "password": "root"
+    "dbname": "postgress_dbname",
+    "user": "username_db",
+    "password": "password_db"
 }
 
 def run_transformation():
