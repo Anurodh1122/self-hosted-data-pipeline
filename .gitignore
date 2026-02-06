@@ -1,0 +1,37 @@
+Guide.txt
+
+
+# Python virtual environments
+venv/
+.env/
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Docker
+*.tar
+
+# Local database or temp files
+*.db
+*.sqlite3
+
+# Jupyter (if ever used)
+.ipynb_checkpoints/
+
+# Environment variables
+.env
