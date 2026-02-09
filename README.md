@@ -38,7 +38,6 @@ This project demonstrates a production-style, automated data pipeline that inges
 - Aggregates raw transactions into hourly metrics  
 - Writes results into: `analytics.hourly_activity_summary`  
 
-![Hourly Analytics Table](screenshots/analytics.png)
 
 ### 3. Validation
 - Checks raw and analytics tables  
